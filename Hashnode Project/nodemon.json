@@ -1,0 +1,18 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "public",
+    "sessions",
+    "logs",
+    ".git",
+    "node_modules",
+    "reports"
+  ],
+  "verbose": true,
+  "watch": [],
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "notes-app:*"
+  },
+  "ext": "js json hbs"
+}

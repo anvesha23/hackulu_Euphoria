@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  width:  100%;
+  background-color: #dbf6e9;
+  font-family: 'Roboto', sans-serif;
+}
+
+#appContainer {
+  padding-top: 5%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  margin: 1.5%;
+  font-size: 2.5rem;
+  color: #0f3057;
+}
+
+.navbar {
+  background-color: #9ddfd3;
+}
+
+.intro {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 2%;
+  font-size: 1.5rem;
+}
+
+#noteList {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+li {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+
+#noteText{
+  width: 60%;
+  height: 100px;
+}
+
+.singleNote {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.buttons-2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  margin:2%;
+}
+
+.start-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #9ddfd3;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.social {
+  color: white;
+  padding: 1%;
+  size: 2%;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Journal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#9ddfd3;">
+  <div id="appContainer">
+    <h1>Journal</h1>
+    <div id="app"></div>
+    <form id="noteForm">
+      <textarea id="noteText" placeholder="Enter your note here....Please start by mentioning the date..."></textarea>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <script src = "src/models/note-model.js"></script>
+  <script src = "src/models/note-list-model.js"></script>
+  <script src = "src/views/note-list-view.js"></script>
+  <script src = "src/views/single-note-view.js"></script>
+  <script src = "src/controllers/note-controller.js"></script>
+
+  <script src = "lib/testing-framework.js"></script>
+  <script src = "spec/models/note-model.spec.js"></script>
+  <script src = "spec/models/note-list-model.spec.js"></script>
+  <script src = "spec/views/note-list-view.spec.js"></script>
+  <script src = "spec/views/single-note-view.spec.js"></script>
+</body>
+</html>

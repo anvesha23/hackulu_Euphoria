@@ -1,0 +1,184 @@
+body {
+  background-color: #dbf6e9;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  margin: 1.5%;
+  font-size: 2.5rem;
+  color: #0f3057;
+}
+
+.navbar {
+  background-color: #9ddfd3;
+}
+
+.intro {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 3%;
+  font-size: 1.5rem;
+}
+
+/* cards */
+.card-img {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
+.col-md-6 {
+  margin-bottom: 1%;
+}
+
+.buttons-2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  margin-top: 55%;
+}
+
+.start-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+@media (max-width:770px) {
+  .buttons-2 {
+  margin-top: 20%;
+  }
+}
+
+/* QUOTES PAGE */
+#intro {
+  padding: 2%;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  margin-bottom: 35%;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 2rem;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #9ddfd3;
+  height: auto;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* LETTERS */
+.input {
+  margin: 2%;
+}
+
+.dis {
+  display: block;
+}
+
+.forms {
+  margin-bottom: 1%;
+  background-color: #9ddfd3;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 30%;
+  border: white;
+}
+
+.letter {
+  height: 300px;
+  width: 100%;
+}
+
+/* MUSIC */
+.play {
+  width: 15%;
+}
+
+.music {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.buttons-3{
+  text-align: center;
+  margin-bottom: 2%;
+}
+/* VIDOES */
+.videos {
+  text-align: center;
+  margin: 2%;
+}
+
+.vid {
+  margin: 1%;
+  padding: 2%;
+  background-color: #9ddfd3;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #9ddfd3;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.social {
+  color: white;
+  padding: 1%;
+  size: 2%;
+}
